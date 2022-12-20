@@ -29,5 +29,36 @@ body{
 }
 .banner .nav li a {
     color: #aaa;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+.banner .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.banner.info h1 {
+    font-size: 2.5em;
+    font-weight: 1700;
+    color: #fff;
+    align-items: center;
+}
+.text-center {
+    align-items: center;
+}
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+.banner .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: red;
+    padding: 10px 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+    align-items: center;
+}
+.banner .info a:hover {
+    background: pink;
 }
